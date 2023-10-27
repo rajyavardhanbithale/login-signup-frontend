@@ -5,7 +5,7 @@ import { lockClosedOutline } from 'ionicons/icons';
 import { happyOutline } from 'ionicons/icons';
 import { mailOutline } from 'ionicons/icons';
 import { phonePortrait } from 'ionicons/icons';
-
+import { Link } from 'react-router-dom';
 
 import '../App.css'
 
@@ -114,9 +114,16 @@ function Signup() {
                     <button className="bg-cyan-400 hover:bg-cyan-600 text-gray-900 text-xl px-10 py-3 rounded-full flex items-center space-x-2 font-semibold transistion ease-in-out duration-500">
                         SIGN UP
                     </button>
-                   
 
-                    <span className="text-gray-500 font-medium mt-5">Already have a account ? <span className="text-[#00F9E1]">Sign in </span> </span>
+
+                    <span className="text-gray-500 font-medium mt-5">Already have a account ?
+                        <Link to="/login">
+                        <span className="text-[#00F9E1]">
+                            Sign in
+                        </span>
+                        </Link>
+
+                    </span>
                 </div>
 
             </div>

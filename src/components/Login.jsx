@@ -3,8 +3,10 @@ import { IonIcon } from '@ionic/react';
 import { personOutline } from 'ionicons/icons';
 import { lockClosedOutline } from 'ionicons/icons';
 import { enterOutline } from 'ionicons/icons';
+import { Link } from 'react-router-dom';
 
 import '../App.css'
+
 
 function Login() {
   return (
@@ -13,9 +15,10 @@ function Login() {
       <div className="flex items-center justify-center h-screen flex-col leading-relaxed tracking-wide ">
         <img src="./public/images/login/login_people.svg" className="w-48 mt-16" alt="" />
 
-        <span className="text-gray-200 text-3xl font-bold p-4 mt-5 flex w-full px-6">Login</span>
-        <span className="text-gray-400 text-sm font-semibold  mb-10 flex w-full px-6">Please Login To Continue</span>
-
+        <div className="flex flex-col w-80">
+          <span className="text-gray-200 text-3xl font-bold mt-8 mb-2">Login</span>
+          <span className="text-gray-400 text-sm font-semibold  mb-10 flex w-full">Please Login To Continue</span>
+        </div>
         <div className="flex flex-col gap-5 w-72">
           <div className="relative">
             <IonIcon
@@ -54,7 +57,14 @@ function Login() {
           </button>
           <span className="text-[#00F9E1] font-medium mt-4">Forgot Password ?</span>
 
-          <span className="text-gray-500 font-medium mt-5">Dont have an account ? <span className="text-[#00F9E1]">SignUp </span> </span>
+          <span className="text-gray-500 font-medium mt-5 mb-10">
+            Dont have an account ?
+            <Link to="/signup">
+              <span className="text-[#00F9E1]">
+                SignUp
+              </span>
+            </Link>
+          </span>
         </div>
 
       </div>
