@@ -13,9 +13,11 @@ function Login() {
     <React.Fragment>
 
       <div className="flex items-center justify-center h-screen flex-col leading-relaxed tracking-wide ">
+      <span className="text-gray-200 text-5xl font-thin mt-5">RAGESEC</span>
         <img src="./public/images/login/login_people.svg" className="w-48 mt-16" alt="" />
 
         <div className="flex flex-col w-80">
+          
           <span className="text-gray-200 text-3xl font-bold mt-8 mb-2">Login</span>
           <span className="text-gray-400 text-sm font-semibold  mb-10 flex w-full">Please Login To Continue</span>
         </div>

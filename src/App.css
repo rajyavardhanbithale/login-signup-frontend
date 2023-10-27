@@ -8,5 +8,10 @@ body{
   font-family: 'Montserrat',sans-serif;
 
   background-color: #1f102c;
+  overflow: hidden;
 }
 
+.mix__blend__overlay {
+
+  mix-blend-mode: hard-light;
+}
