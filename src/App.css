@@ -1,7 +1,10 @@
-/* *{
-  outline: red solid 1px;
-} */
+/* Inspired by https://www.uplabs.com/posts/dark-mode-login-and-signup-app-ui-design */
+/* Login-Signup Frontend using ReactJS, Tailwind and Ionicons  */
 
+/* Follow for more. */
+/* Github: https://github.com/rajyavardhanbithale */
+/* LinkedIn: https://www.linkedin.com/in/rajyavardhan-bithale-999482258/ */
+/* Instagram: https://www.instagram.com/rajyavardhan.8/ */
 
 body{
   
@@ -11,7 +14,11 @@ body{
   overflow: hidden;
 }
 
-.mix__blend__overlay {
-
-  mix-blend-mode: hard-light;
+.band__font{
+  /* font-family: 'Macondo',cursive; */
+  font-family: 'Major Mono Display',monospace;
+  
 }
+
+
+

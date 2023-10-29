@@ -1,3 +1,11 @@
+// Inspired by https://www.uplabs.com/posts/dark-mode-login-and-signup-app-ui-design
+// Login-Signup Frontend using ReactJS, Tailwind and Ionicons 
+
+// Follow for more.
+// Github: https://github.com/rajyavardhanbithale
+// LinkedIn: https://www.linkedin.com/in/rajyavardhan-bithale-999482258/
+// Instagram: https://www.instagram.com/rajyavardhan.8/
+
 import React from 'react';
 import { IonIcon } from '@ionic/react';
 import { personOutline, lockClosedOutline } from 'ionicons/icons';
@@ -13,17 +21,22 @@ function Signup() {
                 <div className="w-full lg:flex">
                     <div className="hidden lg:block w-1/2">
                         <img
-                            src="https://images.pexels.com/photos/3109807/pexels-photo-3109807.jpeg?cs=srgb&dl=pexels-anni-roenkae-3109807.jpg&fm=jpg&w=5184&h=3888&_gl=1*n32axv*_ga*NzE0MDQ1NDQzLjE2ODUwOTkyMTQ.*_ga_8JE65Q40S6*MTY5ODQyOTU2Ni45LjEuMTY5ODQzMDg5OC4wLjAuMA.."
+                            src="public/images/signup/back_image.jpg"
                             alt=""
-                            className="w-full h-screen object-cover mix-blend-color-dodge"
+                            className="w-full h-screen object-cover mix-blend-color-dodge rounded-3xl"
                         />
+                         {/* <div className="gradient__overlay w-full h-screen object-cover"></div> */}
                     </div>
                     <div className="w-full lg:w-1/2 flex flex-col justify-center items-center align-middle lg:scale-125 2xl:lg:scale-125 ">
                         <div className="flex flex-col w-80">
-                        <span className="text-gray-200 text-5xl font-thin mt-5">RAGESEC</span>
-                            <span className="text-gray-200 text-3xl font-bold mt-5">Create Account</span>
-                            <span className="text-gray-400 text-sm font-semibold mt-4 mb-10">
-                                Sign Up To Join Family
+                        <span className="text-gray-200 text-5xl w-full flex justify-center font-thin mt-5 band__font text-transparent bg-clip-text bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900 to-indigo-500 mb-3 ">rAGe</span>
+                            
+                            
+                            <span className="text-gray-200 text-3xl font-bold mt-5 flex justify-center">
+                                Create Account
+                            </span>
+                            <span className="text-gray-400 text-sm font-semibold mt-4 mb-10 flex justify-center">
+                                Join and Unlock Opportunities
                             </span>
                         </div>
                         <div className="flex flex-col gap-3 w-80">
@@ -63,7 +76,7 @@ function Signup() {
                                 <input
                                     type="text"
                                     className="w-full bg-purple-950/10 hover:bg-opacity-50 focus:outline-none focus:bg-purple-300/10 pl-10 py-4 font-semibold text-gray-100 rounded-xl transition ease-in-out duration-500"
-                                    placeholder="Mail"
+                                    placeholder="Email"
                                     name="email"
                                 />
                             </div>
@@ -114,7 +127,7 @@ function Signup() {
                             </button>
 
                             <span className="text-gray-500 font-medium mt-5">
-                                Already have an account?{' '}
+                                Already have a account?{' '}
                                 <Link to="/login" className="text-[#00F9E1]">
                                     Sign in
                                 </Link>
