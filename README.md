@@ -37,6 +37,8 @@ http://localhost:5173/signup
 ![mockup-3](https://github.com/rajyavardhanbithale/login-signup-frontend/assets/70558897/e7d08e1c-0765-44dd-a1a9-4c9be461ab69)
 ![mockup-4](https://github.com/rajyavardhanbithale/login-signup-frontend/assets/70558897/00d91aa4-8e3d-48fb-80f0-ee568d43a931)
 
+https://github.com/rajyavardhanbithale/login-signup-frontend/assets/70558897/06646bea-0c7a-4131-a691-b5cc489bbbfe
+
 
 
 ## Contributing
